@@ -40,12 +40,12 @@ def main():
 			rsp = requests.get('https://api.proxyscrape.com/?request=displayproxies&proxytype=http&country=all&anonymity=all&ssl=yes&timeout=2000') #Code By GogoZin
 			with open('proxies.txt','wb') as fp:
 				fp.write(rsp.content)
-				print(Fore.CYAN + "Sucess Get Https Proxies List !")
+				print(Fore.CYAN + "Получены прокси, ддось лохов :) !")
 		else:
 			rsp = requests.get('https://api.proxyscrape.com/?request=displayproxies&proxytype=http&country=all&anonymity=all&ssl=all&timeout=1000') #Code By GogoZin
 			with open('proxies.txt','wb') as fp:
 				fp.write(rsp.content)
-				print(Fore.CYAN + "Sucess Get Http Proxies List !")
+				print(Fore.CYAN + "Получены прокси, ддось лохов :) !")
 	else:
 		pass
 	list = str(input(Fore.GREEN + "Документ (proxies.txt) : " + Fore.WHITE))
@@ -77,7 +77,7 @@ def atk():
 					s.close()
 			except:
 				s.close()
-				print(Fore.RED + "Can't Connect To Proxies Or Url !")
+				print(Fore.RED + "Сайт упал, защита дерьмо( !")
 
 
 if __name__ == "__main__":
