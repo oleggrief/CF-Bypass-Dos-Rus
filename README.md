@@ -15,4 +15,8 @@ pip3 install colorama
 
 python3 cfbypass.py
 
+#Что обходит?
+
+CloudFlare, NexusGuard, DDoS-Guard
+
 Переведено MalinovOVH
