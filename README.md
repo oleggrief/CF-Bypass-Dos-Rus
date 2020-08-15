@@ -1,5 +1,6 @@
 CF-Bypass-Dos-Rus
 Простой скрипт использующий модуль cfscrape, подключает прокси для обхода CF
+
 #Установка Python3 на Linux
 
 sudo apt-get install python3
